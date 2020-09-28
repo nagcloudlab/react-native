@@ -2,8 +2,12 @@
 --------------------------------------------------
 react/react-native core concepts
 --------------------------------------------------
-1- props  & state on component
+
+1- props & state 
 2- inter-component communication
 3- life-cycle
 4- context
-5- hooks
+5- container components
+6- HOC ( Higher order components)
+
+--------------------------------------------------
