@@ -1,0 +1,9 @@
+
+--------------------------------------------------
+react/react-native core concepts
+--------------------------------------------------
+1- props  & state on component
+2- inter-component communication
+3- life-cycle
+4- context
+5- hooks
