@@ -1,0 +1,46 @@
+
+
+
+
+--------------------------------------
+web / Mobile ui
+--------------------------------------
+
+ui = data + style + behav
+
+
+ content  ==> HTML
+ style    ==> CSS
+ behavior ==> javascript
+
+
+-----------------------------------------
+
+      component based UI arch
+      -------------------------
+
+      what is component in UI ?
+
+      ==> any UI-fragment with single responsibility ( i.e simpler & smaller)
+
+         e.g <input/>, <calender /> .....
+
+
+      principles of component(s)
+      -------------------------
+      => must have single-responsibility 
+         -> to keep smaller & simpler
+      => must be loosely from other
+         -> to re-use anywhere
+      => can take props from parent-component
+         -> to customize based on requirement
+      => must not mutate given props   
+         -> to keep data consistency
+      => can be stateless & statefull
+      => state is mutable
+         -> can mutate on event
+      => on state change , component always re-render  
+      
+
+  -----------------------------------------
+

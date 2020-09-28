@@ -1,0 +1,60 @@
+
+Day 1
+
+ 
+1. Building stateless components using Hooks
+
+2. Data management in the component using hooks
+
+3. Redux store design principals
+
+4. redux thunk
+
+5. Implementing Redux with react-native for updating data
+
+6. Integrating redux store with react-native components
+
+7. Data management in redux store
+
+ 
+
+Day 2
+
+
+1. Implementing Authentication and Authorization
+
+2. Token Management
+
+3. Async Storage for persistent Data
+
+4. Navigation in react-native
+
+5. Parameterized routing using navigator
+
+6. data management via in the routes
+
+ 
+
+Day 3
+
+ 
+
+1. Implementing Splash Screen
+
+2. Working with camera plug-in
+
+3. Working with Infinity scroller
+
+4. Working document Picker
+
+7. Working with file uploads
+
+5. Implementing Finger Print Scanner
+
+6. Implementing Maps on React-Native
+
+7. Production Build
+
+8. Building Apk
+
+ 
