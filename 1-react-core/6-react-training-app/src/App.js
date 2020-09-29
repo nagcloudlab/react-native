@@ -1,20 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import ClassComponent from './ClassComponent';
-import HookComponent from './HookComponent';
+
+
+import Training from './components/Training';
 
 function App() {
   return (
     <div className="container">
       <hr />
-      <h1> react : hooks</h1>
+      <h1>react - training app</h1>
       <hr />
-
-      <ClassComponent />
-      <hr />
-      <HookComponent />
-
-
+      <Training/>
     </div>
   );
 }

@@ -1,17 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
-
-import Training from './components/Training';
+import DemoComp from './hooks/reducer/TodoApp'
 
 function App() {
   return (
     <div className="container">
       <hr />
-      <h1>react - naive app</h1>
+      <h1> react : hooks</h1>
       <hr />
 
-      <Training/>
+      <DemoComp/>
 
     </div>
   );

@@ -1,0 +1,76 @@
+
+reactive native 
+---------------------------------
+
+
+1- Environment
+1.1- Quaick start
+
+
+2- JavaScript
+2.1- New Features
+     - Imports and exports
+     - Block-scoped declarations
+     - Arrow functions
+     - Classes
+     - Destructuring
+     - Spread
+     - Async/await
+2.2- JSX
+
+3- React
+3.1- Elements
+3.2- Components
+     - Function components
+     - Class components
+3.3- Events
+3.4- Conditional Rendering
+3.5- User Input
+3.6- Lists and Keys
+3.7- Performance 
+     - Memo
+3.8- Hooks
+     - useState
+     - useEffect
+     - useReducer
+     - useRef
+     - custom hooks
+
+
+4- Core Components
+4.1- View 
+4.2- Layout 
+4.3- Text
+4.4- Image
+4.5- Button
+4.6- Touchables
+     - TouchableOpacity
+     - TouchableHighlight
+4.7- ScrollView
+4.8- List
+     - FlatList
+     - SectionList
+
+
+
+5- App development
+5.1- Project structure
+5.2- Navigation
+     - React Navigation
+     - Navigation & Routes
+5.3- Data Management
+     - useReducer
+     - Redux
+     - Mobx
+     - Realm
+5.4- Persistence
+5.5- Networking
+5.6- Animation
+5.7- Gestures
+5.8- Component Libraries
+5.9- Native Modules
+
+
+6 Exercise
+6.1 Photo Gallery
+

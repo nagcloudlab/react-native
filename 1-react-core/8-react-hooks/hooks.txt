@@ -1,0 +1,44 @@
+
+
+
+Motivation Behind The Release Of React Hooks
+
+
+- Reusing stateful logic between components is difficult.
+- Complex components can be difficult to understand.
+- Classes are quite confusing.
+
+
+The Rules Of Hooks
+
+- Make sure to not use Hooks inside loops, conditions, or nested functions;
+- Only use Hooks from inside React Functions.
+
+
+
+
+Basic React Hooks
+
+- useState()   ==> 
+
+- useEffect()
+- useContext()
+- useMemo()
+- useCallback
+
+- useReducer()  ==> to manage complex state at react comp
+
+
+- customHooks
+
+
+
+perforamce feature
+
+    - React.memo
+
+
+
+
+
+https://wattenberger.com/blog/react-hooks
