@@ -1,0 +1,34 @@
+
+
+
+
+
+design issues with react/react-native only 
+-------------------------------------------
+
+==> state , state-change & n/wing logic tightly coupled with UI components
+==> state scattered acros UI components, 
+   
+causes
+
+  => components are heavy-weight, i.e not re-usable
+  => unit-testing not possible
+
+----------------------------------------------  
+
+
+solutions:
+
+      => using state/data management Libraries
+
+
+      on react-native,
+
+
+         1. redux
+         2. Mobx
+         3. mongodb realm 
+
+         +
+
+         4 useReducer hook

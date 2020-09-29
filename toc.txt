@@ -16,6 +16,7 @@ Day 1
 
 7. Data management in redux store
 
+
  
 
 Day 2
