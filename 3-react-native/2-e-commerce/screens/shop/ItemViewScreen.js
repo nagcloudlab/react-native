@@ -8,17 +8,20 @@ import {
     StyleSheet,
 } from 'react-native';
 
-import { ListItem, Avatar } from 'react-native-elements'
+import { ListItem} from 'react-native-elements'
 
 import { useSelector, useDispatch } from 'react-redux';
 
 import * as itemsApi from '../../api/items'
 
 const ProductDetailScreen = ({ route, navigation }) => {
+   
     const { itemId } = route.params;
     const dispatch = useDispatch()
+   
     const item = useSelector(state => state.items.find(item => item.id === itemId))
     const reviews = useSelector(state => state.reviews[itemId] || []);
+
     return (
         <View>
             <ScrollView>
@@ -31,7 +34,8 @@ const ProductDetailScreen = ({ route, navigation }) => {
 
 
                 <View style={styles.comments}>
-                    <Button title="view comments" onPress={e => dispatch(itemsApi.loadReviews(itemId))} />
+                    <Button title="view comments" 
+                            onPress={e => dispatch(itemsApi.loadReviews(itemId))} />
                 </View>
 
 

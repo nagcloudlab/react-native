@@ -42,7 +42,8 @@ function ShopNavigator() {
                             />
                         )
                     })}/>
-                <Stack.Screen name="ItemView" component={ItemViewScreen} options={({ route }) => ({ title: route.params.name })} />
+                <Stack.Screen name="ItemView" component={ItemViewScreen} 
+                              options={({ route }) => ({ title: route.params.name })} />
                 <Stack.Screen name="CartView" component={CartViewScreen}/>
             </Stack.Navigator>
         </NavigationContainer>

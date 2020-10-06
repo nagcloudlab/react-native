@@ -1,0 +1,96 @@
+
+
+
+-----------------------------------------------------------------------------------------
+Setting up the development environment
+-----------------------------------------------------------------------------------------
+
+    https://reactnative.dev/docs/environment-setup
+
+-----------------------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------------------
+React Navigation/Routing :
+-----------------------------------------------------------------------------------------
+
+
+https://reactnavigation.org/
+
+    version : 4.x
+    version : 5.x
+
+
+1. Navigate Between Screens using React Navigation V5 in React Native
+
+https://snack.expo.io/@aboutreact/navigate-between-screens-using-react-navigation-in-react-native?&preview=true&platform=web&iframeId=i2fkwqhhlw&theme=dark
+
+
+2. React Native Bottom Tab Navigation – Example using React Navigation V5
+https://snack.expo.io/@aboutreact/bottom-navigation-example?&preview=true&platform=android&iframeId=d7l5pmzh4w&theme=dark
+
+
+
+3. React Native Tab – Example using Latest React Navigation
+https://snack.expo.io/@aboutreact/tab-example?&preview=true&platform=android&iframeId=vtlf56at03&theme=dark
+
+
+4. React Native Navigation Drawer – Example using React Navigation V5
+https://snack.expo.io/@aboutreact/navigationdrawer-example?&preview=true&platform=android&iframeId=me0xjvj1d9&theme=dark
+
+
+
+--------------------------------------------------------------------------------------------------
+
+
+
+
+-----------------------------------------------------------------------------------------
+Example Application : Login & Register App =>  Navigation, SplashScreen, Async Storage , Auth & Token Management
+-----------------------------------------------------------------------------------------
+
+
+> react-native init ProjectName
+> cd ProjectName
+> npm install react-navigation@4 --save
+> npm install react-native-gesture-handler react-native-safe-area-context @react-native-community/masked-view react-native-screens react-native-reanimated --save
+> npm install react-navigation-drawer --save
+> npm install react-navigation-stack --save
+> npm install --save @react-native-community/async-storage
+> cd ios && pod install && cd ..
+
+> mkdir image screen ./screen/Components ./screen/drawer-screens
+> touch ./screen/DrawerNavigationRoutes.js ./screen/LoginScreen.js ./screen/RegisterScreen.js ./screen/SplashScreen.js ./screen/components/CustomSidebarMenu.js ./screen/components/NavigationDrawerHeader.js ./screen/components/loader.js ./screen/drawer-screens/HomeScreen.js ./screen/drawer-screens/SettingsScreen.js
+
+
+--------------------------------------------------------------------------------------
+splash screen
+--------------------------------------------------------------------------------------
+
+https://github.com/spencercarli/react-native-splash-screen-demo/blob/master/TUTORIAL.md
+
+--------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------
+E-commerce Application : React Native & Redux
+-----------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------
+Infinity ScrollView
+-----------------------------------------------------------------------------------------
+
+ - ScrollView
+ - Flatlist  - 
+
+
+-----------------------------------------------------------------------------------------
+Document Picker & File Upload
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Camera plugin
+-----------------------------------------------------------------------------------------
+

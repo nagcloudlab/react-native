@@ -8,11 +8,16 @@ import * as itemsApi from '../../api/items'
 import Item from '../../components/shop/Item';
 
 const ItemListScreen = ({ navigation }) => {
-    const items = useSelector(state => state.items)
+
+    const items = useSelector(state => state.items || []) 
+
+
     const dispatch = useDispatch()
+
     useEffect(() => {
         dispatch(itemsApi.loadItems())
     }, [])
+
     const renderItem = item => {
         return (
             <Item
